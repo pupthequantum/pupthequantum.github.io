@@ -1,0 +1,179 @@
+@import "https://fonts.googleapis.com/css?family=Rubik:300,400,500,700";
+@import "https://fonts.googleapis.com/css?family=Playfair+Display:700,900|Raleway:400,700&display=swap";
+
+@highlight-green: #7FBC03;
+@quantumbrown: #2D2A26;
+
+/* Navigation  Bar */
+#topbar {
+    //height: 11.5rem;
+    padding-top: 1rem;
+}
+
+.navbar-nav {
+    flex: 1;
+    text-align: center;
+    margin: auto !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-footer {
+    background-color: @quantumbrown;
+}
+
+.main-headline {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    color: white;
+}
+
+.headline {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+
+.main-description {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.author, .headline-author {
+    color: @highlight-green;
+    strong {
+        color: @highlight-green;
+    }
+}
+
+.headline {
+	font-family: "Playfair Display", serif;
+	font-weight: 700;
+}
+
+.headline-date {
+    color: white;
+}
+
+.headline-card-image {
+    width: 100%;
+}
+
+/* Category Color Coding */
+.categ-world {
+    color: #c82333;
+}
+
+.categ-sci {
+    color: blueviolet;
+}
+
+.categ-tech {
+    color: #EF3159;
+}
+
+.categ-entr {
+    color: teal;
+}
+
+.categ-arch {
+  color: coral;
+}
+
+.categ-lit {
+    color: #ffc100;
+}
+
+.card-img-overlay {
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.75),
+            rgba(0, 0, 0, 0.75)
+    );
+}
+
+.col-md-6 {
+    padding: 0.5rem;
+}
+
+.card {
+    height: 100%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+}
+
+.card-text, p {
+    font-family: "Raleway", sans-serif;
+    font-size: 400;
+}
+
+.author, .date {
+    color: #282828;
+}
+
+.btn {
+    border-radius: 25px;
+    border-width: 2px;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 1px;
+}
+
+.sticky-sidebar {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 12px;
+}
+
+.card-link, .author-link {
+    color: #80bc00;
+}
+
+blockquote {
+    color: rgba(0,0,0,0.65);
+    padding-left: 1.5em;
+    border-left: 5px solid rgba(0,0,0,0.1);
+}
+
+/* Footer */
+
+.page-footer {
+    background-color: #2d2a26;
+    color: white !important;
+}
+
+.btn-subscribe {
+    width: 100%;
+}
+
+.footer-desc, .footer-copyright, .contact-email {
+    color: @highlight-green;
+}
+
+.contact-text {
+    color: white;
+}
+
+.page-footer .font-weight-bold {
+    color: @highlight-green;
+}
+
+.page-footer a {
+    color: white;
+}
+
+.footer-logos {
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-desc {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+}
