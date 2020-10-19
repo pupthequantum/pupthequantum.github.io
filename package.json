@@ -5,7 +5,7 @@
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
-    "description": "A basic HTML starter template for Bootstrap",
+    "description": "The PUP Physics Society's Official Student Publication",
     "keywords": [
         "css",
         "sass",
@@ -14,19 +14,19 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/bare",
+    "homepage": "https://pupthequantum.github.io",
     "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-bare/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "https://pupthequantum.github.io",
+        "email": "thequantumpup@gmail.com"
     },
-    "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "PUP Physics Society",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "John Engelo Chew (johnengelo@outlook.com)",
+        "John William Latuja (jwlatuja@gmail.com)"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-bare.git"
+        "url": "https://github.com/pupthequantum.github.io.git"
     },
     "dependencies": {
         "bootstrap": "4.5.0",
