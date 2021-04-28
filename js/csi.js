@@ -33,3 +33,5 @@ window.onload = function() {
 		}
 	}
 }
+
+document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
