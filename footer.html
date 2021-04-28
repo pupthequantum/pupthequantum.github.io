@@ -57,7 +57,11 @@
         </div>
     </div>
     <div class="footer-copyright text-center py-3">Copyright
-        <br><a href="https://www.facebook.com/pupthequantum/"> © 2020 The Quantum - PUP Physics Society</a>
+        &copy;
+        <br><span id="copyright">©
+        <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+    </span>
+        <a href="https://www.facebook.com/pupthequantum/">The Quantum - PUP Physics Society</a>
     </div>
     <div class="footer-logos flex-nowrap text-center align-items-center">
         <img src="/images/thequantum-rocket.svg" style="width: 50px; height: 50px" alt="">
